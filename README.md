@@ -8,6 +8,10 @@ The project deals with several problems that show up in data pipelines: actual v
 
 [Build checks](https://github.com/anushaxrama/signalflow/actions/workflows/ci.yml) | [Architecture](docs/architecture.md) | [Runbook](docs/runbook.md) | [Verification](docs/verification.md)
 
+## Review guide
+
+The [case study](docs/case-study.md) explains the project, and the [dashboard screenshot](docs/screenshots/dashboard.png) shows the interface. For the evidence behind the reliability claims, read [verification](docs/verification.md). The local setup below starts with SQLite; Kafka, PostgreSQL, Airflow, and dbt are optional extensions.
+
 ## What it does
 
 - Fetches carbon-intensity forecasts, observed intensity, and generation percentages from the public NESO Carbon Intensity API.
