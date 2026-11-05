@@ -6,7 +6,7 @@ The project deals with several problems that show up in data pipelines: actual v
 
 ![SignalFlow dashboard](docs/screenshots/dashboard.png)
 
-[Build checks](https://github.com/anushaxrama/signalflow/actions/workflows/ci.yml) | [Architecture](docs/architecture.md) | [Runbook](docs/runbook.md) | [Verification](docs/verification.md)
+[Build checks](https://github.com/anusharama100/signalflow/actions/workflows/ci.yml) | [Architecture](docs/architecture.md) | [Runbook](docs/runbook.md) | [Verification](docs/verification.md)
 
 ## Review guide
 
@@ -29,7 +29,7 @@ The dashboard uses HTML, CSS, JavaScript, and SVG. It does not need a frontend b
 Use Python 3.12 and `make`. The test matrix also covers Python 3.9. This path uses SQLite and does not require Docker or an API key.
 
 ```sh
-git clone https://github.com/anushaxrama/signalflow.git
+git clone https://github.com/anusharama100/signalflow.git
 cd signalflow
 make setup
 make ingest
@@ -207,7 +207,7 @@ The recorded local checks include:
 
 These are captured development runs, not fixed counts for a live upstream feed. See [source verification](docs/verification-data.json) and [container integration evidence](docs/integration-evidence.json).
 
-[GitHub Actions](https://github.com/anushaxrama/signalflow/actions/workflows/ci.yml) runs SQLite and PostgreSQL tests on Python 3.9 and 3.12, validates Compose and application syntax, and builds the dbt models against a separate CI database. A passing CI run does not replace the recorded real-broker or scheduler checks.
+[GitHub Actions](https://github.com/anusharama100/signalflow/actions/workflows/ci.yml) runs SQLite and PostgreSQL tests on Python 3.9 and 3.12, validates Compose and application syntax, and builds the dbt models against a separate CI database. A passing CI run does not replace the recorded real-broker or scheduler checks.
 
 ## Limitations and next steps
 
