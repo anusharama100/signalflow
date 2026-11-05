@@ -100,3 +100,7 @@ It is a hindsight comparison, not a forecast or a promise of savings. It exclude
 This is a local development deployment. Sustained throughput, high availability, cloud hosting, and recovery from infrastructure loss have not been demonstrated. Hosting requires access controls, managed secrets, schema migrations, monitoring, and tested backups. The single Kafka broker is not highly available.
 
 Data comes from the [NESO Carbon Intensity API](https://api.carbonintensity.org.uk/) under CC BY 4.0. Preserve its attribution when sharing extracts. See the [official endpoint definitions](https://carbon-intensity.github.io/api-definitions/) and [architecture notes](docs/architecture.md).
+
+## Latest local check
+
+See [local verification](docs/LOCAL_VERIFICATION.md) for the November 5, 2026 setup, runtime checks, and remaining test boundaries.
